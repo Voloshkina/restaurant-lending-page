@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Burger factory</title>
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo"></div>
+				<div class="navbar__burger-menu" id="burger"></div>
+				<nav class="navbar__body">
+					<ul id="hamb" class="navbar__list ">
+						<li><a data-goto="#ingredient" href="#" class="navbar__link">ingredient</a></li>
+						<li><a data-goto="#story" href="#" class="navbar__link">story</a></li>
+						<li><a data-goto="#menu" href="#" class="navbar__link">burgers</a></li>
+						<li><a data-goto="#location" href="#" class="navbar__link">location</a></li>
+					</ul>
+				</nav>
+				<button class="btn">Order now</button>
+			</div>
+		</div>
+	</header>
+
+	<section class="main">
+		<div class="container  main-sect">
+			<div class="row">
+				<h1 class="main__title">Burger Factory</h1>
+				<h2 class="subtitle">Your dreamed burger close to your locations!</h2>
+				<button class=" btn btn_secondary">Discover the ingredients</button>
+			</div>
+			<div class="row viewImg">
+				<img class='viewImg__img' src="./img/main-poster.png" alt="main">
+			</div>
+		</div>
+	</section>
+	<div class="main-poster"><img class='main-poster__img' src="./img/main-poster.png" alt="main"></div>
+
+	<section id='ingredient' class="section  sect-ingridients">
+		<div class="container container_direction">
+			<h2 class="title">Ingredients</h2>
+			<h4 class="subtitle subtitle_float">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis id
+				arcu vel
+				maximus.</h4>
+			<div class="container carousel" id="carousel">
+				<ul class="carousel-slides">
+					<li class="card card-single">
+						<img class="card__img single" src="./img/buns.png" alt="buns">
+						<h5 class=cart__name>Buns</h5>
+					</li>
+					<li class="card card-single">
+						<img class="card__img single" src=" ./img/salad.png" alt="salat">
+						<h5 class=cart__name>Salad</h5>
+					</li>
+					<li class="card card-single">
+						<img class="card__img single" src=" ./img/tomato.png" alt="tomato">
+						<h5 class=cart__name>Tomato</h5>
+					</li>
+					<li class="card card-single">
+						<img class="card__img single" src=" ./img/cheese.png" alt="cheese">
+						<h5 class=cart__name>Cheese</h5>
+					</li>
+					<li class="card card-single">
+						<img class="card__img single" src=" ./img/bacon.png" alt="cheese">
+						<h5 class=cart__name>Bacon</h5>
+					</li>
+				</ul>
+			</div>
+			<p class="text text_float">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget consequat
+				lorem. Ut nec
+				placerat purus. Fusce vitae
+				faucibus augue, non commodo elit. Integer risus orci, ultricies ac dapibus sed, dignissim interdum quam.
+				Proin quis
+				dignissim diam. Donec id magna placerat, fringilla odio et, efficitur lacus. Vivamus eu ultricies erat,
+				eu lobortis
+				nunc. Sed nec dignissim libero. Integer cursus leo nunc. Nulla mattis interdum nunc, sed semper turpis.
+				Cras elit lorem,
+				mollis ut feugiat ac, ultricies eu dolor.</p>
+		</div>
+	</section>
+
+	<section id="story" class="section section">
+		<div class="container container__story">
+			<div class="row">
+				<h2 class="title">The story</h2>
+				<h4 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis id arcu vel
+					maximus.</h4>
+				<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget consequat lorem. Ut
+					nec placerat purus. Fusce vitae
+					faucibus augue, non commodo elit. Integer risus orci, ultricies ac dapibus sed, dignissim interdum
+					quam. Proin quis
+					dignissim diam. Donec id magna placerat, fringilla odio et, efficitur lacus. Vivamus eu ultricies
+					erat, eu lobortis
+					nunc. Sed nec dignissim libero. Integer cursus leo nunc. Nulla mattis interdum nunc, sed semper
+					turpis. Cras elit lorem,
+					mollis ut feugiat ac, ultricies eu dolor.</p>
+			</div>
+			<div class="row">
+				<img src="./img/menu-set.png" alt="menu-set" class="image">
+			</div>
+		</div>
+	</section>
+
+	<section id="menu" class="section">
+		<div class="container container_direction ">
+			<h2 class="title">Burgers</h2>
+			<div class="container container__menu">
+				<div class="card card__size">
+					<h4 class="subtitle">1/4 Pound Cheese</h4>
+					<img class="card__img card__img_size" src="./img/burger-cheese.png" alt="cheese">
+					<button class="btn  btn-menu ">Details</button>
+				</div>
+				<div class="card card__size">
+					<h4 class="subtitle">Big Burger</h4>
+					<img class="card__img card__img_size" src="./img/burger-cheese.png" alt="cheese">
+					<button class="btn  btn-menu">Details</button>
+				</div>
+				<div class="card card__size">
+					<h4 class="subtitle">Pure bacon</h4>
+					<img class="card__img card__img_size" src="./img/burger-cheese.png" alt="cheese">
+					<button class="btn  btn-menu">Details</button>
+				</div>
+			</div>
+			<button class="btn btn_margin">Order now</button>
+		</div>
+	</section>
+
+	<section id="location" class="section">
+		<div class="container container__location">
+			<h2 class="title">Location</h2>
+			<div class="wrraper">
+				<h4 class="subtitle location">Burger Factory</h4>
+				<h4 class="subtitle subtitle_weight location">Pl. de la Riponne 10</h4>
+				<h4 class="subtitle subtitle_weight location">1005 Lausanne</h4>
+				<h4 class="subtitle subtitle_weight location">021 800 00 00</h4>
+			</div>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2820.253261388142!2d6.631599467137869!3d46.524152120431694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2e31ad9a7581%3A0x6910a4219da53f6!2zUGwuIGRlIGxhIFJpcG9ubmUgMTAsIDEwMDUgTGF1c2FubmUsINCo0LLQtdC50YbQsNGA0LjRjw!5e1!3m2!1sru!2sua!4v1679164788018!5m2!1sen!2sen"
+				class="google-map" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="logo footer__logo"></div>
+			</div>
+			<div class="row footer__info">
+				<h4 class="subtitle footer__text">Burger Factory</h4>
+				<h4 class="subtitle subtitle_weight footer__text">Pl. de la Riponne 10</h4>
+				<h4 class="subtitle subtitle_weight footer__text">1005 Lausanne</h4>
+				<h4 class="subtitle subtitle_weight footer__text">021 800 00 00</h4>
+			</div>
+		</div>
+	</footer>
+
+	<script src="index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+.carousel {
+  position: relative;
+  width: 1120px;
+  overflow: hidden;
+
+  @media (max-width: 1240px) {
+    width: 575px;
+  }
+
+  @media (max-width: 600px) {
+    width: 305px;
+  }
+
+  @media (max-width: 360px) {
+    width: 265px;
+  }
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 20px 20px;
+  width: 230px;
+  height: 242px;
+  border-radius: 26px;
+  box-shadow: 0px 3px 6px $box--shadow;
+  transition: all 0.5s ease-out;
+
+  @media (max-width: 1240px) {
+    margin: 50px 40px 20px 0;
+  }
+
+  @media (max-width: 360px) {
+    width: 200px;
+    height: 222px;
+  }
+
+  &__img {
+    margin: 30px 0;
+    width: 100px;
+
+    &_size {
+      margin: 60px 0 20px;
+      width: 220px;
+
+      @media (max-width: 1400px) {
+        margin: 40px 0 16px;
+        width: 176px;
+      }
+
+      @media (max-width: 1240px) {
+        margin: 30px 0 14px;
+        width: 154px;
+      }
+
+      @media (max-width: 520px) {
+        width: 40%;
+      }
+    }
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

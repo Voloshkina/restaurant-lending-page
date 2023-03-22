@@ -1,0 +1,26 @@
+.container {
+  &__story {
+    @media (max-width: 980px) {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+  }
+}
+
+.image {
+  margin-left: 20px;
+  margin-right: auto;
+  width: 100%;
+  box-sizing: border-box;
+
+  @media (max-width: 1400px) {
+    width: 95%;
+  }
+
+  @media (max-width: 980px) {
+    margin: 20px auto;
+    width: 90%;
+  }
+}
