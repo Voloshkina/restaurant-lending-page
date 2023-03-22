@@ -62,6 +62,16 @@ ul {
   }
 }
 
+.btn:hover {
+  background-color: darken($btn--bg--color, 20%);
+  color: $bg--footer;
+}
+
+.btn_secondary:hover {
+  background-color: darken($btn--bg--secondary, 20%);
+  color: $bg--footer;
+}
+
 .section {
   display: flex;
   justify-content: center;

@@ -69,7 +69,6 @@
       flex-direction: column;
       align-items: start;
       width: 100%;
-      height: 100%;
       padding: 0;
     }
 
@@ -196,6 +195,7 @@
   margin-right: auto;
 
   @media (max-width: 1240px) {
+    top: 20%;
     left: 47%;
   }
 

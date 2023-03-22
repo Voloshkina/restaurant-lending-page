@@ -1,19 +1,19 @@
 (async () => {
-  const interval = 2500,
-    paddingRight = 50,
-    slidesWrapper = document.querySelector('.carousel-slides'),
-    slides = document.querySelectorAll('.carousel-slides > li'),
-    delay = (ms) => new Promise((r) => setTimeout(r, ms)),
-    movLeft = (el, mov) =>
-      new Promise((r) => {
-        el.ontransitionend = (_) => {
-          el.ontransitionend = null;
-          el.style.transition = 'none';
-          r();
-        };
-        el.style.transition = '1s';
-        el.style.transform = `translateX(${-mov}px)`;
-      });
+  const interval = 2500;
+  const paddingRight = 50;
+  const slidesWrapper = document.querySelector('.carousel-slides');
+  const slides = document.querySelectorAll('.carousel-slides > li');
+  const delay = (ms) => new Promise((r) => setTimeout(r, ms));
+  const movLeft = (el, mov) =>
+    new Promise((r) => {
+      el.ontransitionend = (_) => {
+        el.ontransitionend = null;
+        el.style.transition = 'none';
+        r();
+      };
+      el.style.transition = '1s';
+      el.style.transform = `translateX(${-mov}px)`;
+    });
 
   let index = 0;
 

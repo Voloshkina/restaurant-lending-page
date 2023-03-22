@@ -45,13 +45,14 @@
     }
   }
 }
+
 .btn-menu {
   margin-left: auto;
   background-color: transparent;
   color: $color--secondary;
-  padding: 20px;
+}
 
-  @media (max-width: 1240px) {
-    padding: 20px;
-  }
+.btn-menu:hover {
+  background-color: transparent;
+  color: darken($color--secondary, 30%);
 }
