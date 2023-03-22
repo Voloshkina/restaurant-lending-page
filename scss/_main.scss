@@ -42,6 +42,7 @@ ul {
   margin-left: auto;
   padding: 8px 30px;
   height: 40px;
+  line-height: 25px;
   background-color: $btn--bg--color;
   border-radius: 10px;
   border: none;
@@ -59,6 +60,7 @@ ul {
   @media (max-width: 700px) {
     padding: 6px 15px;
     height: 30px;
+    line-height: 17px;
   }
 }
 
