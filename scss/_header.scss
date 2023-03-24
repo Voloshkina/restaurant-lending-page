@@ -29,6 +29,9 @@
       margin-right: 50px;
       padding: 0;
     }
+    @media (max-width: 1000px) {
+      margin-right: 40px;
+    }
   }
 
   &__burger-menu {
