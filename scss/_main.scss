@@ -50,6 +50,8 @@ ul {
   cursor: pointer;
 
   &_secondary {
+    margin-top: 25px;
+    font-size: 18px;
     background-color: $btn--bg--secondary;
   }
 
